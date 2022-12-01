@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>iotbot_shield</name>
+  <version>0.1.0</version>
+  <description>ROS2 interface to IOT2050 robotic extension shield</description>
+
+  <maintainer email="stefan.may@th-nuernberg.de">Stefan May</maintainer>
+  <maintainer email="dgrenner@gmx.de">David Grenner</maintainer>
+  <maintainer email="antonello.pastore@yahoo.de">Antonello Pastore</maintainer>
+  <maintainer email="manukreutz@live.de">Manuel Kreutz</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <build_depend>iotbot_interface</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <depend>rclcpp</depend>
+    <depend>std_msgs</depend>
+    <depend>joy</depend>
+    <depend>geometry_msgs</depend>
+    <depend>sensor_msgs</depend>
+    <depend>iotbot_interface</depend>
+    <depend>std_srvs</depend>
+  </export>
+</package>
