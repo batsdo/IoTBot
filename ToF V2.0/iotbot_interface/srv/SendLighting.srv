@@ -1,0 +1,6 @@
+uint8	red		    #value of red component of the LEDs in hex values from 0x00 to 0xff
+uint8	green		#value of red component of the LEDs in hex values from 0x00 to 0xff
+uint8	blue		#value of red component of the LEDs in hex values from 0x00 to 0xff
+uint8	command	    #Hex Command for specific lighting mode 
+---
+bool 	sending_succesfull

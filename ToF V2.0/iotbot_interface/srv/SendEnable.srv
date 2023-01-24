@@ -1,0 +1,3 @@
+bool	enable 	# true = enable false = disable
+---
+bool 	sending_succesfull
